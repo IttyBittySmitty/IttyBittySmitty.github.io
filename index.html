@@ -6,7 +6,9 @@
     <title>The Josh Smith Project</title>
     
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
     
     <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -19,48 +21,69 @@
     <!-- Navigation Bar -->
     <header>
         <nav>
-            <h1>The Josh Smith Project</h1>
+            <h1 class="zen-dots-regular">The Josh Smith Project</h1>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#maia">Maia</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
+
+
 
     <!-- Hero Section -->
     <section class="hero">
         <h2>Welcome to My Portfolio</h2>
         <p>I'm a passionate software developer learning new things every day.</p>
-        <button>Get in Touch</button>
+  <a href="https://www.youtube.com/embed/y9K18CGEeiI" target="_blank" >
+
+        <button>Smash This Button</button>
+      </a>
     </section>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h1 id="maia">I'd like you to meet Maia</h1>
+      <p>
+        Often refered to as Maia Chan, She is the best girl.
+      </p>
+    </div>
+
+    <div>
+      <img src="https://i.imgur.com/sad4pVd.jpeg" alt="Maia" width="300">
+      </img>
+    </div>
+  </div>
+</div>
+
 
     <!-- Grid Layout Section -->
     <section class="container">
         <div class="card">
             <i class="fas fa-code"></i>
-            <h3>Web Development</h3>
-            <p>Creating clean and efficient websites using modern technologies.</p>
+            <h3 id="projects">Web Development</h3>
+            <p>Web Dev is super fun! I'm having fun making this page!</p>
         </div>
         <div class="card">
             <i class="fas fa-laptop-code"></i>
             <h3>Software Projects</h3>
-            <p>Building applications that solve real-world problems.</p>
+            <p>I have a ton of ideas to make things easier! Stay tuned!</p>
         </div>
         <div class="card">
             <i class="fas fa-gamepad"></i>
             <h3>Game Development</h3>
-            <p>Exploring interactive experiences through game design.</p>
+            <p>I would love to make my own games! It's coming!</p>
         </div>
     </section>
 
     <!-- Footer Section -->
     <footer>
-        <p>© 2025 My Website | Follow me:  
-            <a href="#"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
+        <p id="contact">© 2025 Josh Smith Project | Follow me:  
+            <a href="https://github.com/IttyBittySmitty" target="_blank">
+<i class="fab fa-github"  ></i></a>
+            <a href="https://www.linkedin.com/in/josh-smith-70a9276a" target="_blank"><i class="fab fa-linkedin"></i></a>
         </p>
     </footer>
 
